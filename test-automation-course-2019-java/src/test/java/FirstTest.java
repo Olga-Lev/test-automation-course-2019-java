@@ -56,7 +56,7 @@ import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -71,7 +71,7 @@ public class FirstTest {
 //        DesiredCapabilities caps = new DesiredCapabilities();
 //        caps.setCapability("unexpectedAlertBehaviour","accept");
 
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         ChromeOptions ch =new ChromeOptions();
         ch.addArguments("start-fullscreen");
 
